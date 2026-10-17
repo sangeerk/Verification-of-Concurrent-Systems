@@ -1,12 +1,7 @@
-# Verification-of-Concurrent-Systems
+
 
 # Verification of Concurrent Systems
 ### SERI 2026 | IISc Bangalore
-
-**Author:** Sangeerthana K  
-**Program:** ACM iSoft ASCENT Internship  
-**Institution:** Indian Institute of Science (IISc), Bangalore  
-**Guide:** Prof. Komondoor V. Raghavan
 
 ---
 
