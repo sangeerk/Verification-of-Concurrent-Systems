@@ -271,7 +271,7 @@ The broader objective is to improve the scalability and precision of static anal
 **Title:** Verification of Concurrent Systems  
 **Institution:** IISc Bangalore
 
-The original presentation can be added to this repository as `seri.pdf`.
+The original presentation added to this repository as `seri.pdf`.
 
 ---
 
