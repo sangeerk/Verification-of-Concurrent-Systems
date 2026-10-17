@@ -48,7 +48,7 @@ The model consists of two clients communicating with a central server through re
 - **Nondeterministic selection:** The server chooses among pending requests nondeterministically.
 - **Release cycle:** After completing its critical section, a client sends a return message to the server.
 
-![Client-server architecture](images/client-server-model.png)
+
 
 ### Simplified Promela Model
 
@@ -124,7 +124,7 @@ This motivates further investigation into progress guarantees and starvation in 
 
 The global state automaton illustrates how different execution paths affect progress.
 
-![Global state automaton and trace analysis](images/global-state-automaton.png)
+
 
 - **Passing progress trace:** Requests from both clients are eventually granted.
 - **Failing starvation trace:** The server repeatedly grants client 0 while client 1 remains pending.
@@ -147,7 +147,6 @@ Vector Addition Systems (VAS) represent communication events using numeric token
 
 The classical Karp–Miller algorithm constructs a tree representing reachable states of an unbounded system.
 
-![Karp-Miller tree and acceleration](images/karp-miller-tree.png)
 
 **Acceleration rule**
 
@@ -178,7 +177,6 @@ Lattice-based reachability analysis tracks abstract variable values across produ
 
 This allows the analysis to reason about program assertions while accounting for different interleavings of concurrent execution.
 
-![Advanced research framework](images/research-framework.png)
 
 ---
 
@@ -214,8 +212,6 @@ Interleaved loop execution triggers widening to an unbounded interval:
 
 This loss of precision results in an assertion failure in the analysis.
 
-![Assertion failure due to widening](images/assertion-failure.png)
-
 ### Case B: Bounded Precise Automata
 
 In the second example, the analysis reaches the assertion at state 4 without premature widening.
@@ -228,7 +224,7 @@ The tracked counter remains within:
 
 Consequently, the assertion `count <= 2` passes.
 
-![Assertion success with precise analysis](images/assertion-success.png)
+
 
 ### Key Observation
 
@@ -286,4 +282,4 @@ The original presentation can be added to this repository as `seri.pdf`.
 
 ## Acknowledgment
 
-I would like to thank **Prof. Komondoor V. Raghavan** and the IISc Bangalore research environment for the opportunity to explore concurrent-system verification and static analysis through the ACM iSoft ASCENT Internship.
+I would like to thank **Prof. Komondoor V. Raghavan** and the IISc Bangalore research environment for the opportunity to explore concurrent-system verification  through the ACM iSoft ASCENT Internship.
